@@ -56,11 +56,10 @@
                                 <color key="textColor" white="0.80745219749999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-x0-9dZ" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
-                                <rect key="frame" x="20" y="776" width="374" height="66"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-x0-9dZ" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
+                                <rect key="frame" x="115.5" y="792" width="183" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.4727365154109589" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="CYq-xe-5dK"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ra5-Sh-wDn"/>
                                 </constraints>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,6 +82,7 @@
                             <constraint firstItem="ohu-S1-M0i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="BwY-bR-wCK"/>
                             <constraint firstItem="szB-XJ-KHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hns-k8-7zv"/>
                             <constraint firstItem="iyK-C2-Sl9" firstAttribute="top" secondItem="ohu-S1-M0i" secondAttribute="bottom" constant="84" id="Sli-Yb-LCW"/>
+                            <constraint firstItem="LKe-x0-9dZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="akl-7B-Vzt"/>
                             <constraint firstItem="VzK-E8-4ma" firstAttribute="top" secondItem="iyK-C2-Sl9" secondAttribute="bottom" id="hOh-EQ-2N9"/>
                             <constraint firstItem="ohu-S1-M0i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hlo-RP-qON"/>
                             <constraint firstItem="Zca-8G-yr7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mAf-yA-cRC"/>
